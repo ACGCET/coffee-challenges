@@ -1,6 +1,5 @@
 # copycat-uis
-Simple frontend copycats of popular UI implementations
-
+Simple frontend challenges that you can complete in 10 - 15 mins
 Check the issues for challenges
 
 # How I can help you? 
