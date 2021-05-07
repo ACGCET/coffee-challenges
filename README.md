@@ -1,4 +1,4 @@
-# copycat-uis
+# coffee-challenges
 Simple frontend challenges that you can complete in 10 - 15 mins
 Check the issues for challenges
 
