@@ -1,0 +1,30 @@
+.searchInput,.searchInput2 {
+    padding: 5px 12px;
+    font-size: 14px;
+    line-height: 20px;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    outline: none;
+}
+.searchInput {
+    width: 320px;
+}
+.searchInput2 {
+    width: 100px;
+}
+.searchInput:focus, .searchInput2:focus {
+    border-color: #0366d6;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+.searchIcon {
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .searchInput{
+      width: auto;
+  }
+  .searchIcon {
+    margin: 0;
+}
+}

@@ -1,0 +1,119 @@
+.container {
+    max-width: 1280px;
+    padding: 6rem;
+}
+table {
+    border-left: 1px solid #e1e4e8;
+    border-right: 1px solid #e1e4e8;
+    border-bottom: 1px solid #e1e4e8;
+    width: 100%;
+}
+
+td {
+    padding: 1rem;
+    border-bottom: 1px solid #e1e4e8;
+}
+.mb20 {
+    margin-bottom: 20px;
+}
+.issues-reset-query-icon {
+    width: 18px;
+    height: 18px;
+    padding: 1px;
+    margin-right: 3px;
+    color: #fff;
+    text-align: center;
+    background-color: #acb1b8;
+    border-radius: 6px;
+}
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+table{
+    border-collapse: collapse;
+}
+.label_note,.linktext, .linkUnderline {
+    font-size: 12px;
+    color: #586069;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.linkUnderline:hover, .linktext:hover, .clearText {
+    color: #0366d6;
+}
+.linktext, .linkUnderline, .clearText {
+    text-decoration: none;
+}
+.clearText {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+    color: #586069;
+}
+.linktext:hover{
+    text-decoration: underline;
+}
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: #f6f8fa;
+    border: 1px solid #e1e4e8;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.tag {
+    padding: 2px 10px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px!important;
+    border: 1px solid transparent;
+    border-radius: 2em;
+}
+
+.form {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input-conatiner {
+    margin-right: 20px;
+}
+.section1, .section2 {
+    display: flex;
+    justify-content: space-between;
+}
+.section2 {
+    align-items: center;
+}
+.inputLabel {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #24292e;
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+      min-height: 58rem;
+      padding: 2rem;
+  }
+
+  .mb-hide {
+      display: none;
+  }
+  .form, .section1 {
+    width: 100%;
+      flex-direction: column;
+      align-items: flex-start;
+  }
+  .section2 {
+      margin-top: 1rem;
+  }
+}
