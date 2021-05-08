@@ -11,6 +11,10 @@ Check the issues for challenges
 - Portfolio - https://mariappan.netlify.app/
 - Email - mariappangameo@gmail.com
 
+##### Time stats: 
+<br/>
+<img src='./assets/mariappan.png' alt='image-stats-sub1'>
+
 Feel free to raise issues, run the code locally & understand (or) ask questions.
 # Submit new challenge
 Create a new issue (please check the old issues and try to be clear as much as possible including screenshots/videos/links as required)
