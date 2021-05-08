@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { Component } from 'react'
 import './table.css';
 import SearchBar from './searchbar'
