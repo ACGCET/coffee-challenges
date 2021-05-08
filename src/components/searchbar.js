@@ -5,7 +5,7 @@ class SearchBar extends Component {
 
     _onKeydown = (e) => {
         if (e.key === 'Enter') {
-            this.props.filterLabels(this.props.searchValue, true)
+            this.props.filterLabels((this.props.searchValue).toLowerCase(), true)
         }
     }
     onInputchange = (e) => {
