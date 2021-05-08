@@ -59,7 +59,6 @@ export class NewLabelForm extends Component {
     }
     render () {
         const labelsPreviewContainer = {
-            padding: '1rem',
             borderRadius: '6px',
             padding: '16px',
             marginBottom: '16px',

@@ -4,7 +4,7 @@ import SearchBar from './searchbar'
 import NewLabelButton from './NewLabelButton'
 import NewLabelForm from './NewLabelForm';
 import { hexToRgbA } from '../utils/commonUtils'
-import EditLabelForm from './editLabelForm';
+// import EditLabelForm from './editLabelForm';
 
 const defaultSuggestedLables = [
     {
@@ -121,7 +121,7 @@ export class table extends Component {
                     <NewLabelButton toggleNewLabelForm={this.toggleNewLabelForm} />
                 </div>
                 { isNewLabelFormVisible && <NewLabelForm createNewLabel={this.createNewLabel} toggleNewLabelForm={this.toggleNewLabelForm} />}
-                {(isfilterApplied || !labelsAfterFiltering?.length > 0) && <a href="#" className="mb20 clearText" onClick={() => this.filterLabels('', false)}>
+                {(isfilterApplied || !labelsAfterFiltering?.length > 0) && <a href="!#" className="mb20 clearText" onClick={() => this.filterLabels('', false)}>
                     <svg class="octicon octicon-x issues-reset-query-icon" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
                             Clear current search</a>}
                 {labelsAfterFiltering?.length > 0 ?
@@ -137,9 +137,9 @@ export class table extends Component {
                                         <tr key={label.id}>
                                             <td><span className="tag" style={{ backgroundColor: label.default_color, color: hexToRgbA(label.default_color) }}>{label.label_name}</span></td>
                                             <td className="mb-hide label_note">{label.lebel_note}</td>
-                                            <td><a className="mb-hide linkUnderline" href="#">{label.open_issues_or_prs > 0 ? `${label.open_issues_or_prs} open issue or pull request` : ''}</a> </td>
+                                            <td><a className="mb-hide linkUnderline" href="!#">{label.open_issues_or_prs > 0 ? `${label.open_issues_or_prs} open issue or pull request` : ''}</a> </td>
                                             {/* <td><a className="linktext" href="#">Edit</a></td> */}
-                                            <td><a className="linktext" href="#" onClick={() => this.deleteLabel(label.id)}>Delete</a></td>
+                                            <td><a className="linktext" href="!#" onClick={() => this.deleteLabel(label.id)}>Delete</a></td>
                                         </tr>
                                     )
                                 })}
