@@ -6,6 +6,13 @@ Check the issues for challenges
 
 1. Mariappan S 
 
+- Try the live demo here - [https://github-label-challenge.netlify.app/](https://github-label-challenge.netlify.app/)
+- Find the code for the demo in this branch - [https://github.com/ACGCET/coffee-challenges/tree/mariappan-submission](https://github.com/ACGCET/coffee-challenges/tree/mariappan-submission)
+
+-------------------------------------------------------------------------
+
+##### Contact: 
+
 - Linkedin Profile - https://www.linkedin.com/in/marigameo
 - Github handle - https://github.com/Marigameo/
 - Portfolio - https://mariappan.netlify.app/
@@ -16,6 +23,8 @@ Check the issues for challenges
 <img src='./assets/mariappan.png' alt='image-stats-sub1'>
 
 Feel free to raise issues, run the code locally & understand (or) ask questions.
+
+Simple right? Try challenging yourself once!
 # Submit new challenge
 Create a new issue (please check the old issues and try to be clear as much as possible including screenshots/videos/links as required)
 
