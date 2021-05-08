@@ -1,5 +1,5 @@
 # coffee-challenges
-Simple frontend challenges that you can complete in 10 - 15 mins
+Simple frontend challenges that you can complete in 30min - 1hr
 Check the issues for challenges
 
 # Submit new challenge
